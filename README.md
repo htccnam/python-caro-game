@@ -81,10 +81,6 @@ The AI uses a simple evaluation function that:
 
 - `caro_game.py`: Main game implementation
 
-## Screenshots
-
-*(Add screenshots here if available)*
-
 ## Contributing
 
 Feel free to submit issues or pull requests if you'd like to improve the game!
