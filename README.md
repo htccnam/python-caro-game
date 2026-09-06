@@ -15,17 +15,50 @@ A simple implementation of the Caro game (also known as Gomoku or Five in a Row)
 ## Requirements
 
 - Python 3.x
-- Tkinter (usually comes pre-installed with Python on most systems)
+- Tkinter (GUI library for Python)
+
+## Setup Instructions
+
+### Windows
+1. Download and install Python 3.x from [python.org](https://www.python.org/downloads/)
+   - Make sure to check "Add Python to PATH" during installation
+2. Tkinter is included with the official Python installer for Windows
+
+### macOS
+1. Install Python 3.x via:
+   - Official installer from [python.org](https://www.python.org/downloads/)
+   - Or using Homebrew: `brew install python`
+2. Tkinter is included with the official Python installer for macOS
+
+### Linux (Ubuntu/Debian/WSL)
+1. Install Python 3.x and Tkinter:
+   ```bash
+   sudo apt-get update
+   sudo apt-get install python3 python3-tk
+   ```
+2. For other distributions:
+   - Fedora: `sudo dnf install python3 python3-tkinter`
+   - Arch Linux: `sudo pacman -S tk`
+
+### Verification
+After installation, verify tkinter is available:
+```bash
+python3 -c "import tkinter; print('Tkinter version:', tkinter.TkVersion)"
+```
 
 ## How to Run
 
 1. Clone or download this repository
-2. Navigate to the project directory
+2. Navigate to the project directory:
+   ```bash
+   cd python-caro-game
+   ```
 3. Run the game:
-
-```bash
-python caro_game.py
-```
+   ```bash
+   python3 caro_game.py
+   # If python3 doesn't work, try:
+   python caro_game.py
+   ```
 
 ## How to Play
 
@@ -62,4 +95,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-Enjoy playing Caro!
+Enjoy playing Caro! 🎮
