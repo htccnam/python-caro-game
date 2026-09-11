@@ -41,7 +41,7 @@ A simple implementation of the Caro game (also known as Gomoku or Five in a Row)
    - Arch Linux: `sudo pacman -S tk`
 
 ### Using Anaconda/Miniconda (All platforms)
-1. Install Anaconda or Miniconda if not already installed.
+1. Install Anaconda or Miniconda if not already installed via  official website of anaconda .
 2. Open Anaconda Prompt (or terminal) and create a new environment:
    ```bash
    conda create -n caro-game python=3.10 -y
