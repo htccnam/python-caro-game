@@ -40,7 +40,30 @@ A simple implementation of the Caro game (also known as Gomoku or Five in a Row)
    - Fedora: `sudo dnf install python3 python3-tkinter`
    - Arch Linux: `sudo pacman -S tk`
 
-### Verification
+### Using Anaconda/Miniconda (All platforms)
+1. Install Anaconda or Miniconda if not already installed.
+2. Open Anaconda Prompt (or terminal) and create a new environment:
+   ```bash
+   conda create -n caro-game python=3.10 -y
+   ```
+3. Activate the environment:
+   ```bash
+   conda activate caro-game
+   ```
+4. Verify tkinter is available (it comes with Python):
+   ```bash
+   python -c "import tkinter; print('tkinter OK')"
+   ```
+5. Run the game:
+   ```bash
+   python caro_game.py
+   ```
+6. To deactivate when done:
+   ```bash
+   conda deactivate
+   ```
+
+## Verification
 After installation, verify tkinter is available:
 ```bash
 python3 -c "import tkinter; print('Tkinter version:', tkinter.TkVersion)"
